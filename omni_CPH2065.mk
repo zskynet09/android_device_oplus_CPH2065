@@ -12,13 +12,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Inherit from ossi device
-$(call inherit-product, device/oplus/ossi/device.mk)
+# Inherit from CPH2065 device
+$(call inherit-product, device/oplus/CPH2065/device.mk)
 
-PRODUCT_DEVICE := ossi
-PRODUCT_NAME := omni_ossi
+PRODUCT_DEVICE := CPH2065
+PRODUCT_NAME := omni_CPH2065
 PRODUCT_BRAND := oplus
-PRODUCT_MODEL := ossi
+PRODUCT_MODEL := CPH2065
 PRODUCT_MANUFACTURER := oplus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo-rvo3

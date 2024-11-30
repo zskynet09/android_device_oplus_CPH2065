@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_ossi.mk
+    $(LOCAL_DIR)/omni_CPH2065.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_ossi-user \
-    omni_ossi-userdebug \
-    omni_ossi-eng
+    omni_CPH2065-user \
+    omni_CPH2065-userdebug \
+    omni_CPH2065-eng
