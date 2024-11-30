@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_CPH2065.mk
+    $(LOCAL_DIR)/twrp_CPH2065.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_CPH2065-user \
-    omni_CPH2065-userdebug \
-    omni_CPH2065-eng
+    twrp_CPH2065-user \
+    twrp_CPH2065-userdebug \
+    twrp_CPH2065-eng
