@@ -9,3 +9,6 @@ LOCAL_PATH := device/oplus/CPH2065
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
+
+# Dynamic Partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
