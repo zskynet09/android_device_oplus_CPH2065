@@ -75,6 +75,9 @@ BOARD_SUPER_PARTITION_GROUPS := oplus_dynamic_partitions
 BOARD_OPLUS_DYNAMIC_PARTITIONS_PARTITION_LIST := system system vendor vendor product product my_odm my_odm my_product my_product my_engineering my_engineering my_company.netease my_company.netease my_carrier.vdf my_carrier.vdf my_region.japan my_region.japan my_heytap.x my_heytap.x my_stock.x my_stock.x my_preload.x my_preload.x
 BOARD_OPLUS_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
+# Metadata
+BOARD_USES_METADATA_PARTITION := true
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6873
 
